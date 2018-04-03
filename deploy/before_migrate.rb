@@ -1,1 +1,1 @@
-run "ln -nfs #{config.releases_path}/backend/vendor #{config.current_path}/vendor/"
+run "ln -nfs #{config.release_path}/backend/ #{config.current_path}/vendor/"
