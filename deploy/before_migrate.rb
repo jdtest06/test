@@ -1,2 +1,1 @@
-#run "ln -s #{config.release_path}/backend/vendor #{config.current_path}/vendor"
-run "rsync -avzh #{config.release_path}/backend/vendor #{config.current_path}/vendor"
+#run "ln -nfs #{config.release_path}/public/test.html #{config.current_path}/public"
