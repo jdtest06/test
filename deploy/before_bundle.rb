@@ -1,6 +1,6 @@
 run! "rsync -av #{config.release_path}/backend/* #{config.release_path}/"
 
-=========== Commented Part ==============
+#=========== Commented Part ==============
 #run! "ln -nfs #{config.release_path}/backend/config.ru #{config.release_path}/config.ru"
 #run! "ln -nfs #{config.release_path}/backend/Gemfile #{config.release_path}/Gemfile"
 #run! "ln -nfs #{config.release_path}/backend/Gemfile.lock #{config.release_path}/Gemfile.lock"
