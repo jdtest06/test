@@ -1,1 +1,1 @@
-run! "rsync -av #{config.shared_path}/cached-copy/backend/* #{config.shared_path}/cached-copy"
+run! "rsync -av #{config.release_path}/backend/* #{config.release_path}/"
