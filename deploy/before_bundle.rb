@@ -1,4 +1,4 @@
-run! "rsync -av #{config.release_path}/backend/* #{config.release_path}/"
+#run! "rsync -av #{config.release_path}/backend/* #{config.release_path}/"
 
 #=========== Commented Part ==============
 #run! "ln -nfs #{config.release_path}/backend/config.ru #{config.release_path}/config.ru"
